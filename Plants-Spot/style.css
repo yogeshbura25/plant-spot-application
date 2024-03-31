@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #92745B;
+}
+
+.navbar-brand {
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.Home-Container {
+    background-color: #001E00;
+    color: white;
+    height: 100vh;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.quote {
+    font-size: 22px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.Content-Container {
+    padding: 50px;
+    background-color: olivedrab;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, li {
+    font-size: 20x;
+    margin-top: 10px;
+}
+
+.icons-container .icons {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        background-color: olivedrab;
+        color: white;
+        margin: 10px;
+        display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-container .icons:hover {
+    background-color: black;
+}
+
+@media  screen and (min-width:768px) and (max-width:1023px){
+   .first-image {
+    height: 300px;
+    width: 500px;
+   }
+
+   .small-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .description, ul,li {
+    font-size: 16px;  
+    text-align: justify;
+}
+.Content-Container {
+    padding: 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+    
+    .quote {
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    .description, ul,li {
+        font-size: 14px;  
+        text-align: justify;
+    }
+
+    ul,li {
+        margin-top: 2px;
+        padding: 4px;
+    }
+
+    .small-image, .Content-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+    
+       .first-image {
+        height: 250px;
+        width: 300px;
+       }
+       .Content-Container {
+        padding: 20px;
+       }
+}
+
+
+.plants-container {
+    background-color: #001E00;
+    color: white;
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.plant-image {
+    height: 300px;
+    width: 300px;
+}
+
+.plant-hover {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plant-image{
+    height: 300px;
+    width: 300px;
+  }
+
+.plant-content {
+    display: none;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    color: white;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.plant-hover:hover .plant-content {
+    display: block; 
+}
+
+
+.plant-description {
+    font-size: 14px;
+}
+
+@media  screen and (min-width:768px) and (max-width:1023px) {
+    .plant-image {
+        height: 220px;
+        width: 220px;
+    }
+
+    .plant-content {
+       height: 220px;
+       width: 220px;
+       padding: 5px;
+    }
+
+    .plant-description {
+        font-size: 14px;
+    }
+} 
+
+@media screen and (max-width:767px) {
+    .plant-hover {
+        margin: 10px;
+    } 
+    .contact-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-side-image {
+        padding: 10px;
+    }
+}
+
+.contact-container {
+    background-color: olivedrab;
+    color: white;
+    padding: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001E00;
+    height: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.icon:hover {
+    background-color: black;
+}
+
+.icon-box {
+    display: flex;
+    padding: 10px;
+}
+
+.info-details {
+    margin-left: 15px;
+}
+
+.contact-side-image {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+
+.info-details p {
+    margin: 0px;
+}
+
+.details-card {
+    padding: 20px;
+}

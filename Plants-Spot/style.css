@@ -9,6 +9,7 @@
 
 nav {
     background-color: #92745B;
+    padding: 10px 40px !important;
 }
 
 .navbar-brand {
@@ -19,7 +20,7 @@ nav {
 
 .nav-link {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     margin: 5px;
 }
 
@@ -170,7 +171,7 @@ ul, li {
 
 
 .plant-description {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 @media  screen and (min-width:768px) and (max-width:1023px) {
@@ -204,7 +205,7 @@ ul, li {
 }
 
 .contact-container {
-    background-color: olivedrab;
+    background-color: #001E00;
     color: white;
     padding: 20px;
 }
@@ -214,14 +215,9 @@ ul, li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #001E00;
     height: 40px;
     height: 40px;
     padding: 10px;
-}
-
-.icon:hover {
-    background-color: black;
 }
 
 .icon-box {
@@ -246,3 +242,75 @@ ul, li {
 .details-card {
     padding: 20px;
 }
+
+.reviews {
+    background-color: #92745B;
+    padding: 30px 60px;
+}
+
+.card-bg {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-review {
+    margin: 10px;
+    display: flex;
+}
+
+.card-image {
+    height: 300px;
+    width: 700px;
+}
+
+
+.review-info {
+    background-color: #001E00;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.review-info:hover {
+    background-color: olivedrab; 
+} 
+
+.name, .expression, .rating, .review {
+    margin: 4px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+@media  screen and (min-width:768px) and (max-width:1023px) {
+    .name, .expression, .rating, .review {
+        margin: 3px;
+        text-align: justify;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .name, .expression, .rating, .review {
+        margin: 2px;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .card-review {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-image {
+        margin-top: 10px;
+        height: 300px;
+        width: 400px;
+    }
+    .review-info {
+        height: 300px;
+    width: 400px;
+    }
+}
+

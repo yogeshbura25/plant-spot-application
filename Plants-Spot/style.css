@@ -52,6 +52,12 @@ nav {
 ul, li {
     font-size: 20x;
     margin-top: 10px;
+    text-align: justify;
+}
+
+.our-mission {
+    font-size: 30px;
+    text-align: center;
 }
 
 .icons-container .icons {
@@ -128,6 +134,9 @@ ul, li {
 
        nav {
         padding: 10px 20px !important;
+    }
+    .our-mission  {
+        font-size: 20px;
     }
 }
 
@@ -206,6 +215,16 @@ ul, li {
     .contact-side-image {
         padding: 10px;
     }
+    .plant-image {
+        height: 300px;
+        width: 350px;
+    }
+
+    .plant-content {
+       height: 300px;
+       width: 350px;
+       padding: 5px;
+    }
 }
 
 .contact-container {
@@ -280,7 +299,7 @@ ul, li {
 }
 
 .review-info:hover {
-    background-color: olivedrab; 
+    background-color: black; 
 } 
 
 .name, .expression, .rating, .review {
@@ -313,7 +332,10 @@ ul, li {
     }
     .review-info {
         height: 300px;
-    width: 350px;
+        width: 350px;
+    }
+    .details-card {
+        padding: 5px;
     }
 }
 

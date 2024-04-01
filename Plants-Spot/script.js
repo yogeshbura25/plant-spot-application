@@ -11,14 +11,14 @@ const Reviews = [
       happy: "Fantastic Experience and Exceptional Service!",
       rating: 5,
       image: "https://i.ibb.co/7NJXtDj/indoor-farming-1024x683.jpg",
-      review: "I recently attended one of Plant's Spot workshops, and it was an absolute delight! Not only did I learn valuable gardening tips and techniques, but I also got to connect with fellow plant enthusiasts. The passion and expertise of the team were evident throughout the event. I left feeling inspired and equipped to take my gardening skills to the next level. Thank you, Plant's Spot, for such a wonderful experience!"
+      review: "I recently attended one of Plant's Spot workshops, and it was an absolute delight! Not only did I learn valuable gardening tips and techniques, but I also got to connect with fellow plant enthusiasts. The passion and expertise of the team were evident throughout the event. I left feeling inspired and equipped to take my gardening skills to the next level. Thank you, Plant's Spot."
     },
     { 
       name: "Suriya Kumar",
       happy:"A Green Paradise in the Heart of the City!",
       rating: 5,
       image: "https://i.ibb.co/7NJXtDj/indoor-farming-1024x683.jpg",
-      review: "Plant's Spot has transformed my urban space into a green oasis! Their selection of plants is impressive, and their commitment to sustainability is commendable. I love strolling through my balcony garden, surrounded by lush foliage and vibrant blooms. The personalized garden design consultation was invaluable in maximizing my limited space. If you're looking to bring nature into your urban dwelling, look no further than Plant's Spot!"
+      review: "Plant's Spot has transformed my urban space into a green oasis! Their selection of plants is impressive, and their commitment to sustainability is commendable. I love strolling through my balcony garden, surrounded by lush foliage and vibrant blooms. The personalized garden design consultation was invaluable in maximizing my limited space."
     },
     {
       name: "Mansi Appu",
@@ -32,7 +32,7 @@ const Reviews = [
       happy:"An Oasis of Serenity and Beauty!",
       rating: 5,
       image: "https://i.ibb.co/7NJXtDj/indoor-farming-1024x683.jpg",
-      review: "Plant's Spot has truly created a magical sanctuary right in my backyard! Their diverse selection of plants has allowed me to create a garden paradise that soothes the soul and delights the senses. Whether I'm admiring the vibrant colors of the flowers or harvesting fresh herbs for my meals, every moment spent in my garden is pure joy. Thank you, Plant's Spot, for helping me reconnect with nature and find tranquility in the midst of urban life."
+      review: "Plant's Spot has truly created a magical sanctuary right in my backyard! Their diverse selection of plants has allowed me to create a garden paradise that soothes the soul and delights the senses. Whether I'm admiring the vibrant colors of the flowers or harvesting fresh herbs for my meals, every moment spent in my garden is pure joy. Thank you, Plant's Spot."
     }
   ];
   
@@ -45,10 +45,10 @@ Reviews.forEach(data => {
     card.innerHTML = `
     <div class="card-review">
     <div class="review-info">
-    <p class="name">Name: ${data.name}</p>
-    <p class="expression">Expression: ${data.happy}</p>
-    <p class="rating">Rating: ${data.rating}</p>
-    <p class="review">Review: ${data.review}</p>
+    <p class="name">Name:${data.name}</p>
+    <p class="expression">Expression:${data.happy}</p>
+    <p class="rating">Rating:${data.rating}</p>
+    <p class="review">Review:${data.review}</p>
     </div>
     <img class="card-image" src=${data.image} />
     </div>

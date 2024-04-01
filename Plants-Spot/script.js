@@ -25,7 +25,7 @@ const Reviews = [
       happy: "Top-Notch Quality and Customer Care!",
       rating: 5,
       image: "https://i.ibb.co/7NJXtDj/indoor-farming-1024x683.jpg",
-      review: "I've been a loyal customer of Plant's Spot for years, and they never disappoint! Whether I'm shopping for flowers, vegetables, or herbs, I can always count on the superior quality of their products. The team goes above and beyond to ensure customer satisfaction, from prompt delivery to expert advice on plant care. With Plant's Spot, I know I'm investing in not just plants, but also a greener and more sustainable future."
+      review: "I've been a loyal customer of Plant's Spot for years, and they never disappoint! Whether I'm shopping for flowers, vegetables, or herbs, I can always count on the superior quality of their products. The team goes above and beyond to ensure customer satisfaction, from prompt delivery to expert advice on plant care."
     },
     {
       name: "Rohith",

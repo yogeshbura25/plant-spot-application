@@ -215,6 +215,7 @@ ul, li {
     .contact-side-image {
         padding: 10px;
     }
+
     .plant-image {
         height: 300px;
         width: 350px;
@@ -223,7 +224,6 @@ ul, li {
     .plant-content {
        height: 300px;
        width: 350px;
-       padding: 5px;
     }
 }
 
@@ -288,7 +288,6 @@ ul, li {
     width: 700px;
 }
 
-
 .review-info {
     background-color: #001E00;
     color: white;
@@ -314,6 +313,11 @@ ul, li {
         text-align: justify;
         font-size: 14px;
     }
+    .card-image {
+        height: 300px;
+        width: 280px;
+    }
+    
 }
 
 @media screen and (max-width:767px) {

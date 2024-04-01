@@ -125,6 +125,10 @@ ul, li {
        .Content-Container {
         padding: 20px;
        }
+
+       nav {
+        padding: 10px 20px !important;
+    }
 }
 
 
@@ -305,11 +309,11 @@ ul, li {
     }
     .card-image {
         height: 300px;
-        width: 300px;
+        width: 350px;
     }
     .review-info {
         height: 300px;
-    width: 300px;
+    width: 350px;
     }
 }
 

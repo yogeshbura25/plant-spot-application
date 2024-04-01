@@ -126,8 +126,8 @@ ul, li {
        }
     
        .first-image {
-        height: 250px;
-        width: 300px;
+        height: 200px;
+        width: 350px;
        }
        
        .Content-Container {
@@ -214,7 +214,7 @@ ul, li {
 
     .plant-image {
         height: 300px;
-        width: 350px;
+        width: 350px !important;
     }
 
     .plant-content {

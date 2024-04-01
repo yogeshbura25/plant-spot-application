@@ -304,13 +304,12 @@ ul, li {
         flex-direction: column;
     }
     .card-image {
-        margin-top: 10px;
         height: 300px;
-        width: 400px;
+        width: 300px;
     }
     .review-info {
         height: 300px;
-    width: 400px;
+    width: 300px;
     }
 }
 

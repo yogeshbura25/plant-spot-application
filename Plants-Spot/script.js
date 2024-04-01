@@ -54,4 +54,5 @@ Reviews.forEach(data => {
     </div>
     `;
     customerReviews.appendChild(card);
-})
+});
+

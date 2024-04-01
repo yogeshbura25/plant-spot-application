@@ -215,7 +215,6 @@ ul, li {
     .contact-side-image {
         padding: 10px;
     }
-
     .plant-image {
         height: 300px;
         width: 350px;
@@ -223,7 +222,7 @@ ul, li {
 
     .plant-content {
        height: 300px;
-       width: 350px;
+       width: 300px;
     }
 }
 

@@ -128,12 +128,13 @@ ul, li {
         height: 250px;
         width: 300px;
        }
+       
        .Content-Container {
         padding: 20px;
        }
 
        nav {
-        padding: 10px 20px !important;
+        padding: 5px 10px !important;
     }
     .our-mission  {
         font-size: 20px;
@@ -222,7 +223,7 @@ ul, li {
 
     .plant-content {
        height: 300px;
-       width: 300px;
+       width: 350px;
     }
 }
 
@@ -338,6 +339,9 @@ ul, li {
         width: 350px;
     }
     .details-card {
+        padding: 5px;
+    }
+    .icon-box {
         padding: 5px;
     }
 }
